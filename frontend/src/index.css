@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f3f4f6;
+  color: #111;
+}
+
+/* ROOT APP */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
