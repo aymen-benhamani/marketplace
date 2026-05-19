@@ -1,0 +1,1 @@
+export const API_URL = process.env.REACT_APP_API_URL || "https://marketplace-30p55jkc9-aymen-benhamanis-projects.vercel.app"
