@@ -9,7 +9,12 @@ connectDB();
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    "https://marketplace-ynwx.vercel.app",
+    "https://marketplace-30p55jkc9-aymen-benhamanis-projects.vercel.app"
+  ]
+}));
 app.use(express.json());
 app.use("/uploads", express.static("uploads"));
 // Routes
