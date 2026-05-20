@@ -1,1 +1,1 @@
-export const API_BAS = "http://localhost:5000/api";
+export const API_BASE = "https://marketplace-aymen-benhamanis-projects.vercel.app/api";
