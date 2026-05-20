@@ -143,7 +143,7 @@ export function MyProductsPage() {
                       <div className="flex items-center gap-3">
                         <div className="w-10 h-10 rounded-xl overflow-hidden bg-slate-100 flex-shrink-0">
                           {p.image
-                            ? <img src={`http://localhost:5000${p.image}`} className="w-full h-full object-cover" />
+                            ? <img src={`https://marketplace-aymen-benhamanis-projects.vercel.app${p.image}`} className="w-full h-full object-cover" />
                             : <div className="w-full h-full flex items-center justify-center text-sm">🛍️</div>}
                         </div>
                         <span className="font-medium text-sm text-slate-800 max-w-[150px] truncate">{p.name}</span>

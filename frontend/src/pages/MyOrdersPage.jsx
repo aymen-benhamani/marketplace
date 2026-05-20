@@ -108,7 +108,7 @@ export function MyOrdersPage() {
                     <div key={i} className="flex items-center gap-3 text-sm">
                       <div className="w-8 h-8 bg-white rounded-lg overflow-hidden">
                         {item.product?.image
-                          ? <img src={`http://localhost:5000${item.product.image}`} className="w-full h-full object-cover" />
+                          ? <img src={`https://marketplace-aymen-benhamanis-projects.vercel.app${item.product.image}`} className="w-full h-full object-cover" />
                           : <div className="w-full h-full flex items-center justify-center text-xs">🛍️</div>}
                       </div>
                       <span className="text-slate-700 flex-1">{item.name} × {item.quantity}</span>

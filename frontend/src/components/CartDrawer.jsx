@@ -27,7 +27,7 @@ export function CartDrawer({ open, onClose }) {
               {cart.map(item => (
                 <div key={item._id} className="flex gap-3 p-3 bg-slate-50 rounded-xl">
                   <div className="w-14 h-14 rounded-xl bg-slate-200 overflow-hidden flex-shrink-0">
-                    {item.image ? <img src={`http://localhost:5000${item.image}`} className="w-full h-full object-cover" /> : <div className="w-full h-full flex items-center justify-center text-xl">🛍️</div>}
+                    {item.image ? <img src={`https://marketplace-aymen-benhamanis-projects.vercel.app${item.image}`} className="w-full h-full object-cover" /> : <div className="w-full h-full flex items-center justify-center text-xl">🛍️</div>}
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-semibold text-slate-800 truncate">{item.name}</p>

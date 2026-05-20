@@ -14,7 +14,7 @@ export function ProductCard({ product, onAddToCart }) {
         onClick={() => navigate(`/product/${product._id}`)}
       >
         {product.image
-          ? <img src={`http://localhost:5000${product.image}`} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          ? <img src={`https://marketplace-aymen-benhamanis-projects.vercel.app${product.image}`} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
           : <div className="w-full h-full flex items-center justify-center text-6xl">🛍️</div>
         }
         <div className="absolute top-3 left-3"><Badge color="orange">{product.category}</Badge></div>

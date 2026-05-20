@@ -30,7 +30,7 @@ export function ProductDetailPage() {
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="grid md:grid-cols-2 gap-10 items-start">
         <div className="rounded-2xl overflow-hidden bg-slate-100 aspect-square">
-          {product.image ? <img src={`http://localhost:5000${product.image}`} alt={product.name} className="w-full h-full object-cover" />
+          {product.image ? <img src={`https://marketplace-aymen-benhamanis-projects.vercel.app${product.image}`} alt={product.name} className="w-full h-full object-cover" />
             : <div className="w-full h-full flex items-center justify-center text-8xl">🛍️</div>}
         </div>
         <div className="flex flex-col gap-5">

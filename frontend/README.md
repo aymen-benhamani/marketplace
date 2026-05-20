@@ -26,7 +26,7 @@ npm install
 
 # Configure API URL
 # Edit src/config.js
-export const API_BASE = "http://localhost:5000/api";
+export const API_BASE = "https://marketplace-aymen-benhamanis-projects.vercel.app/api";
 
 # Start dev server
 npm run dev
